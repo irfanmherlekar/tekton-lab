@@ -6,7 +6,7 @@
   <artifactId>getting-started</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <properties>
-     <sonar.host.url>https://sonarqube-sonarqube.apps.ocp4.imss.work /sonar.host.url>
+     <sonar.host.url>https://sonarqube-sonarqube.apps.ocp4.imss.work</sonar.host.url>
      <sonar.login>d78cec0384762e3511321a5bb45ba4d22bb5faa0</sonar.login>
      <sonar.projectName>tekon</sonar.projectName>
      <sonar.projectVersion>main</sonar.projectVersion>
