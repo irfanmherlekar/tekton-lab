@@ -6,6 +6,12 @@
   <artifactId>getting-started</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <properties>
+     <sonar.host.url>https://sonarqube-sonarqube.apps.ocp4.imss.work /sonar.host.url>
+     <sonar.login>d78cec0384762e3511321a5bb45ba4d22bb5faa0</sonar.login>
+     <sonar.projectName>tekon</sonar.projectName>
+     <sonar.projectVersion>main</sonar.projectVersion>
+     <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
+     <sonar.exclusions>**/*.java,**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>  
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <maven.compiler.parameters>true</maven.compiler.parameters>
     <maven.compiler.source>11</maven.compiler.source>
